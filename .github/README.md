@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-databrew`](https://www.npmjs.com/package/@aws-sdk/client-databrew/v/3.1130.0).
+[`@aws-sdk/client-databrew`](https://www.npmjs.com/package/@aws-sdk/client-databrew/v/3.1131.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-databrew - [https://cloud-sdk-builds.github.io/?sdk=client-databrew](https://cloud-sdk-builds.github.io/?sdk=client-databrew)
-- @aws-sdk/client-databrew v3.1130.0 - [https://cloud-sdk-builds.github.io/?sdk=client-databrew&version=3.1130.0](https://cloud-sdk-builds.github.io/?sdk=client-databrew&version=3.1130.0)
+- @aws-sdk/client-databrew v3.1131.0 - [https://cloud-sdk-builds.github.io/?sdk=client-databrew&version=3.1131.0](https://cloud-sdk-builds.github.io/?sdk=client-databrew&version=3.1131.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-databrew@3.1130.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-databrew@3.1131.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-CSFSLE9p9GxWVVE3MBkaf8LSOhX1RdJCRDU0weP1q6oGp1Tl0o45sVYp9Qwf4IT7
+sha384-3hBHAvIkhHARXMuU5ewIjj8V79aHbwdzskGu3fCfM7eXv2QTD70/OYu3uCuOh4ht
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-databrew": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-databrew@3.1130.0/index.min.mjs"
+            "@aws-sdk/client-databrew": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-databrew@3.1131.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-databrew@3.1130.0/index.min.mjs": "sha384-CSFSLE9p9GxWVVE3MBkaf8LSOhX1RdJCRDU0weP1q6oGp1Tl0o45sVYp9Qwf4IT7"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-databrew@3.1131.0/index.min.mjs": "sha384-3hBHAvIkhHARXMuU5ewIjj8V79aHbwdzskGu3fCfM7eXv2QTD70/OYu3uCuOh4ht"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-databrew": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-databrew@3.1130.0/index.min.mjs"
+                        "@aws-sdk/client-databrew": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-databrew@3.1131.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-databrew@3.1130.0/index.min.mjs": "sha384-CSFSLE9p9GxWVVE3MBkaf8LSOhX1RdJCRDU0weP1q6oGp1Tl0o45sVYp9Qwf4IT7"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-databrew@3.1131.0/index.min.mjs": "sha384-3hBHAvIkhHARXMuU5ewIjj8V79aHbwdzskGu3fCfM7eXv2QTD70/OYu3uCuOh4ht"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1130.0`)
+* Always pin to a specific version (`@3.1131.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-databrew/blob/refs/tags/3.1130.0/LICENSE
+https://github.com/cloud-sdk-builds/client-databrew/blob/refs/tags/3.1131.0/LICENSE
 ```
 
 ---
